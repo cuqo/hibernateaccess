@@ -28,6 +28,13 @@ public class Usuarios  implements java.io.Serializable {
     public Usuarios(String dowId) {
         this.dowId = dowId;
     }
+
+    public Usuarios(String dowId, String nombre, String apellidos) {
+        this.dowId = dowId;
+        this.nombre = nombre;
+        this.apellidos = apellidos;
+    }
+    
     public Usuarios(String dowId, String nombre, String apellidos, Double vacacionesPendientes, Double vacacionesPendientesArrastradas, Double vacacionesDisfrutadas, String departamento, String planta, String localizacion, String funcion, Double vacaciones) {
        this.dowId = dowId;
        this.nombre = nombre;

@@ -23,6 +23,10 @@ public class HibernateAccess {
         
         Usuarios usuari = daoObject.getUsuarioPerDowId("ND17613");
         System.out.println("Usuari: " +usuari.getNombre() +" " +usuari.getApellidos());
+        //usuari = new Usuarios("ND17612","Zoraida","Pedrosa");
+        //daoObject.inserirUsuario(usuari);
+        //daoObject.eliminarUsuario(usuari);
+        System.exit(0);
         
         
     }
